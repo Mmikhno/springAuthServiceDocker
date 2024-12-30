@@ -1,0 +1,8 @@
+version: "3"
+services:
+    authorizationservice:
+      image: "authapp:latest"
+      container_name: "authapp"
+      build: .
+      ports:
+        - 8080:8080
